@@ -1,24 +1,34 @@
 body{
     background-color: rgb(186, 192, 195);
     height: 100%;
+    width: 100% ;
     margin: 5px;
+    margin-top: 0%;
+    margin-left: 5px ;
 }
-.tabla1{
-    margin: 5px;
+.tabla1 tr{
     text-align: center;
     display: flex;
+    border-spacing: 0px;
+    height:100%; 
+    border: 2px red solid;
     border-collapse: collapse;
-    border-spacing: 0px 20px;
 }
 
 .cabecera{
+
     border: 2px black solid;
+    width: 100%;
+    height: 100%;
+    padding-right: 140px;
+
 }
 td{
     height: 100%;
-    padding-left: 60px;
-    padding-right: 60px;
- 
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top:5px;
 }
 .logo {
     border: 0px blue solid;
@@ -38,13 +48,33 @@ td{
 }
 
 /* aqui comienza la parte de abaj, desde donde dice carreras*/
+.runs{
 
+    border: 2px black solid;
+    width: 100%;
+    height: 100%;
+    padding-right: 140px;
+    margin-right:100% ;
+
+}
 .carrera{
     font-size:30px;
+    height: 100%;
+    width: 100%;
+    padding-left: 140px;
+    padding-right: 140px;
+    
 }
 /* imagen de area educativa*/
 .img_acad{
     border-bottom: 2px blue solid;
     border-left: 2px blue solid;    
 
+}
+.carrera{
+    height: 100%;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top:5px;
 }
