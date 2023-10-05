@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(186, 192, 195);
+    height: 100%;
+    margin: 5px;
+}
+.tabla1{
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    border-collapse: collapse;
+    border-spacing: 0px 20px;
+}
+
+.cabecera{
+    border: 2px black solid;
+}
+td{
+    height: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+ 
+}
+.logo {
+    border: 0px blue solid;
+    padding-bottom: 0%;
+    height: 80px;
+    width: 90px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.inicio{
+    padding-left:100px ;
+    padding-right:100px ;
+}
+.qnsos{
+    white-space: nowrap;
+}
+
+/* aqui comienza la parte de abaj, desde donde dice carreras*/
+
+.carrera{
+    font-size:30px;
+}
+/* imagen de area educativa*/
+.img_acad{
+    border-bottom: 2px blue solid;
+    border-left: 2px blue solid;    
+
+}
