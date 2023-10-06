@@ -2,41 +2,35 @@ body{
     background-color: rgb(186, 192, 195);
     height: 100%;
     width: 100% ;
-    margin: 5px;
     margin-top: 0%;
-    margin-left: 10px ;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
 }
 .tabla1 tr{
     text-align: center;
     display: flex;
     border-spacing: 0px;
     height:100%; 
-    border: 2px red solid;
     border-collapse: collapse;
     margin-left: 10px;
-    margin-right: 70px;
+    margin-right: 110px;
 }
 .cabecera{
-
     border: 2px black solid;
     width: 100%;
     height: 100%;
-    padding-right: 120px;
 }
 td{
     height: 100%;
     width: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
     margin-top:5px;
 }
 .logo {
     border: 0px blue solid;
     padding-bottom: 0%;
-    height: 80px;
-    width: 90px;
-    padding-left: 0px;
-    padding-right: 0px;
+    height: 65px;
+    width: 100px;
 }
 .inicio{
     padding-left:100px ;
@@ -47,11 +41,9 @@ td{
 }
 /* aqui comienza la parte de abaj, desde donde dice carreras*/
 .runs{
-    border: 2px black solid;
+
     width: 100%;
-    height: 100%;
-    padding-right: 120px;
-    margin-right:100% ;
+
 }
 .carrera{
     font-size:30px;
@@ -59,27 +51,62 @@ td{
     width: 100%;
     padding-left: 100px;
     padding-right: 100px;
+    font-size:16px;
 }
 /* imagen de area educativa*/
 .img_acad{
     border-bottom: 2px blue solid;
-    border-left: 2px blue solid;    
+    border-left: 2px blue solid;
+    width: 200px;
+    height: 100px;    
 
-}
-.carrera{
-    height: 100%;
-    width: 100%;
-    padding-left: 130px;
-    padding-right: 130px;
 }
 .enl_img{
     height: 100%;
     width: 100%;
-    padding-left: 60px;
-    padding-right: 60px;
+
+
 }
 .area_tecno{
     border: 2px black solid;
     height: 95%;
     margin: 5px;
+    font-size: 8;
+}
+.img_ingenieria{
+    border-bottom: 2px blue solid;
+    border-left: 2px blue solid;
+    width: 200px;
+    height: 100px;    
+}
+.cont_img{
+    font-size:14px;
+}
+a{
+    font-size: 13.1px;
+}
+.tr_matric{
+    width: 100%;
+    height: 100%;
+}
+.img_matr{
+    width:75%;
+    height: 75%;
+}
+.tab_est{
+    height: 100%;
+    width: 100%;
+}
+.td_tab_est{
+    text-align: center;
+    font-size:15px;
+
+    
+}
+.cont_tab_est {
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    padding-top:0px;
 }
