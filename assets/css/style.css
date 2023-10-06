@@ -2,9 +2,8 @@ body{
     background-color: rgb(186, 192, 195);
     height: 100%;
     width: 100% ;
-    margin: 5px;
+    margin: 10px;
     margin-top: 0%;
-    margin-left: 5px ;
 }
 .tabla1 tr{
     text-align: center;
@@ -26,8 +25,8 @@ body{
 td{
     height: 100%;
     width: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
     margin-top:5px;
 }
 .logo {
@@ -76,5 +75,16 @@ td{
     width: 100%;
     padding-left: 150px;
     padding-right: 150px;
-    margin-top:5px;
+}
+.enl_img{
+    height: 100%;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 40px;
+}
+.area_tecno{
+    border: 2px black solid;
+    height: 95%;
+    margin: 5px;
+    
 }
