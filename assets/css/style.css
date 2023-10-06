@@ -2,8 +2,9 @@ body{
     background-color: rgb(186, 192, 195);
     height: 100%;
     width: 100% ;
-    margin: 10px;
+    margin: 5px;
     margin-top: 0%;
+    margin-left: 10px ;
 }
 .tabla1 tr{
     text-align: center;
@@ -12,21 +13,21 @@ body{
     height:100%; 
     border: 2px red solid;
     border-collapse: collapse;
+    margin-left: 10px;
+    margin-right: 70px;
 }
-
 .cabecera{
 
     border: 2px black solid;
     width: 100%;
     height: 100%;
-    padding-right: 140px;
-
+    padding-right: 120px;
 }
 td{
     height: 100%;
     width: 100%;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-top:5px;
 }
 .logo {
@@ -37,7 +38,6 @@ td{
     padding-left: 0px;
     padding-right: 0px;
 }
-
 .inicio{
     padding-left:100px ;
     padding-right:100px ;
@@ -45,24 +45,20 @@ td{
 .qnsos{
     white-space: nowrap;
 }
-
 /* aqui comienza la parte de abaj, desde donde dice carreras*/
 .runs{
-
     border: 2px black solid;
     width: 100%;
     height: 100%;
-    padding-right: 140px;
+    padding-right: 120px;
     margin-right:100% ;
-
 }
 .carrera{
     font-size:30px;
     height: 100%;
     width: 100%;
-    padding-left: 140px;
-    padding-right: 140px;
-    
+    padding-left: 100px;
+    padding-right: 100px;
 }
 /* imagen de area educativa*/
 .img_acad{
@@ -73,18 +69,17 @@ td{
 .carrera{
     height: 100%;
     width: 100%;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 .enl_img{
     height: 100%;
     width: 100%;
-    padding-left: 100px;
-    padding-right: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .area_tecno{
     border: 2px black solid;
     height: 95%;
     margin: 5px;
-    
 }
